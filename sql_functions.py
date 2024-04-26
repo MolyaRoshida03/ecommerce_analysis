@@ -15,7 +15,7 @@ load_dotenv()
 user = os.getenv('USER')
 password = os.getenv('PASSWORD')
 host = os.getenv('HOST')
-database = 'swiftmarket
+database = 'swiftmarket'
 
 # Establishing connection
 connection = mysql.connector.connect(user = user,
@@ -34,3 +34,9 @@ def read_query(query):
     return pd.DataFrame(data=rows, columns=cursor.column_names)
         
 
+if __name__=='__main__':
+       
+    query = 'Show tables;'
+    print(query)
+    df = read_query(query=query)
+    print(df)
