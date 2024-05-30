@@ -1,7 +1,2 @@
 .env
-files_to_be_install.txt
 test.py
-README.md
-sql_functions.py
-SwiftMarket-data.sql
-testing.ipynb
