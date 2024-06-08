@@ -20,3 +20,5 @@ Libraries: -
 Pandas (Data manipulation), NumPy (Numerical computing), Matplotlib/Seaborn (Data visualization)
 
 
+![Annual_Sale_Performance](https://github.com/aniveshsharma/Ecommerce-Data-Analysis/assets/143382095/a1cf4658-f0b4-4e90-8c65-caf3fbacc722)
+
